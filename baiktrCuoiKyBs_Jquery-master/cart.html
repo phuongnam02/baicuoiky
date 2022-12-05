@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>giỏ hàng</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo fs-3 fw-bold">shopShoe</div>
+      <div class="bar">
+        <span class="mo"><i class="fa-solid fa-bars"></i></span>
+      </div>
+      <div class="menu d-flex gap-3 fw-semibold">
+        <a href="./index.html">trang chủ</a>
+        <a href="./productPage.html">sản phẩm</a>
+        <a href="./blog.html">tin tức</a>
+        <a href="./contact.html">liên hệ</a>
+        <a href="./intro.html">giới thiệu</a>
+      </div>
+
+      <div class="header__right d-flex gap-4">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <a href="./cart.html" class="text-dark"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <div><i class="fa-solid fa-user"></i></div>
+      </div>
+    </header>
+
+    <div class="container h-sreen mt-5">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <!-- tilte -->
+          <div class="itemCart row bg-white mb-4">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-md-6 fw-bold">sản phẩm</div>
+              </div>
+            </div>
+            <div class="col-2 fw-bold">giá</div>
+            <div class="col-2 fw-bold">số lượng</div>
+            <div class="col-2 fw-bold">xóa</div>
+          </div>
+
+          <!-- san phẩm -->
+          <div class="itemCart row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <img src="./img/product-03.jpg" alt="" />
+                </div>
+                <div
+                  class="col-12 col-md-6 d-flex flex-column justify-content-center"
+                >
+                  <p class="mb-0">Giày Slipstream Men's Sneakers</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <h6><strong>189,000</strong></h6>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="soLuong">
+                    <div class="tru">
+                      <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="showQuatity" data-quatity="1"></div>
+                    <div class="cong">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-2">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+          <div class="itemCart row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <img src="./img/product-03.jpg" alt="" />
+                </div>
+                <div
+                  class="col-12 col-md-6 d-flex flex-column justify-content-center"
+                >
+                  <p class="mb-0">Giày Slipstream Men's Sneakers</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <h6><strong>189,000</strong></h6>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="soLuong">
+                    <div class="tru">
+                      <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="showQuatity" data-quatity="1"></div>
+                    <div class="cong">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-2">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+          <div class="itemCart row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <img src="./img/product-03.jpg" alt="" />
+                </div>
+                <div
+                  class="col-12 col-md-6 d-flex flex-column justify-content-center"
+                >
+                  <p class="mb-0">Giày Slipstream Men's Sneakers</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <h6><strong>189,000</strong></h6>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="soLuong">
+                    <div class="tru">
+                      <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="showQuatity" data-quatity="1"></div>
+                    <div class="cong">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-2">
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- box thanh toán -->
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <div class="thanhtoan">
+            <p>tổng sản phẩm : <strong>2</strong></p>
+            <p>thành tiền : <strong>359,000</strong></p>
+            <button>đặt hàng</button>
+            <button>tiếp tục mua sắm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Tổng đài hỗ trợ</h4>
+          <ul>
+            <li>Liên hệ đặt hàng : <strong>093282473858</strong></li>
+            <li>Liên hệ đặt hàng : <strong>093282473858</strong></li>
+            <li>Liên hệ đặt hàng : <strong>093282473858</strong></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Về shopShoe</h4>
+          <ul>
+            <li><a href="">giới thiệu</a></li>
+            <li><a href="">liên hệ</a></li>
+            <li><a href="">tuyển dụng</a></li>
+            <li><a href="">tin tức</a></li>
+            <li><a href="">hệ thống cửa hàng</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>chăm sóc khách hàng</h4>
+          <ul>
+            <li>chính sách đổi trả</li>
+            <li>chính sách bảo hành</li>
+            <li>chính sách hoàn tiền</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>shopShoe</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+            quam dolore nisi sed amet ratione at, fugit nihil accusantium
+            quaerat recusandae quia hic.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $(".bar").click(function (e) {
+        $(".menu").toggleClass("active");
+      });
+      let qua = $(".showQuatity").data().quatity;
+      $(".showQuatity").text(qua);
+      $(".tru").click(function () {
+        var index = $(".tru").index(this);
+        let qua = $(`.showQuatity:eq(${index})`).data().quatity;
+        console.log(index);
+        qua = qua - 1 <= 0 ? 1 : qua - 1;
+        $(`.showQuatity:eq(${index})`).text(qua);
+        $(`.showQuatity:eq(${index})`).data("quatity", qua);
+      });
+      $(".cong").click(function () {
+        var index = $(".cong").index(this);
+        let qua = $(`.showQuatity:eq(${index})`).data().quatity;
+        qua = qua + 1 >= 100 ? 100 : qua + 1;
+        $(`.showQuatity:eq(${index})`).text(qua);
+        $(`.showQuatity:eq(${index})`).data("quatity", qua);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>sản phẩm</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo fs-3 fw-bold">Lyons</div>
+      <div class="bar">
+        <span class="mo"><i class="fa-solid fa-bars"></i></span>
+      </div>
+      <div class="menu d-flex gap-3 fw-semibold">
+        <a href="./index.html">Trang Chủ</a>
+        <a href="./productPage.html">Sản Phẩm</a>
+        <a href="./blog.html">Tin Tức</a>
+        <a href="./contact.html">Liên Hệ</a>
+        <a href="./intro.html">Giới Thiệu</a>
+      </div>
+
+      <div class="header__right d-flex gap-4">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <a href="./cart.html" class="text-dark"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <div><i class="fa-solid fa-user"></i></div>
+      </div>
+    </header>
+    <div class="container mt-10">
+      <div class="row position-relative">
+        <div class="filter col-md-4">
+          <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <ul>
+            <h4>danh mục sản phẩm</h4>
+            <li class="field">
+              <input type="checkbox" name="" id="" />
+              <label for="">Giày Slipstream Men's Sneakers</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="" />
+              <label for="">áo sơ mi</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="" />
+              <label for="">áo vải âu</label>
+            </li>
+          </ul>
+
+          <ul>
+            <h4>màu sắc</h4>
+            <li class="field">
+              <input type="checkbox" name="" id="white" />
+              <label for="white">trắng </label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="hong" />
+              <label for="hong">hồng</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="den" />
+              <label for="den">đen</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="vang" id="vang" />
+              <label for="vang">vàng</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="do" />
+              <label for="do">đỏ</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="xanhla" />
+              <label for="xanhla">xánh lá</label>
+            </li>
+          </ul>
+
+          <ul>
+            <h4>kích cỡ</h4>
+            <li class="field">
+              <input type="checkbox" name="" id="36" />
+              <label for="36">36</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="37" />
+              <label for="37">37</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="38" />
+              <label for="38">38</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="39" />
+              <label for="39">39</label>
+            </li>
+            <li class="field">
+              <input type="checkbox" name="" id="40" />
+              <label for="40">40</label>
+            </li>
+          </ul>
+
+          <button class="delete__filter">xóa tất cả</button>
+        </div>
+        <div class="showProduct col-md-8">
+          <div class="btn-filter">
+            <button class="">bộ lọc</button>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="product__img">
+                  <img class="nth1" src="./img/product-03.jpg" alt="" />
+                  <img class="nth2" src="./img/product-04.jpg" alt="" />
+                </div>
+                <a href="./ProductDetail.html"
+                  >Giày Slipstream Men's Sneakers</a
+                >
+                <p><strong>250.000</strong> <del>390.000</del></p>
+                <button>chọn mua</button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="more">xem thêm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Liên Hệ</h4>
+          <ul>
+            <li>Hotline <strong>093282473858</strong></li>
+            <li>Email : <strong>lyont@gmail.com</strong></li>
+            <li>Email Business : <strong>Business@lyost.ais</strong></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Về Lyons®</h4>
+          <ul>
+            <li><a href="">Giới Thiệu</a></li>
+            <li><a href="">Liên Hệ</a></li>
+            <li><a href="">Tuyển Dụng</a></li>
+            <li><a href="">Tin Tức</a></li>
+            <li><a href="">Hệ Thống Cửa Hàng</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Chăm Sóc Khách Hàng</h4>
+          <ul>
+            <li>Chính sách đổi trả</li>
+            <li>Chính sách bảo hành</li>
+            <li>Chính sách hoàn tiền</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 col-md-4">
+          <h4>Lyons</h4>
+          <p>
+            Lyons® – Popular Streetwear Brand
+
+ 
+
+HỘ KINH DOANH Red Label
+
+GPKD được cấp bởi Cục Cảnh sát QLHC & TTXH
+
+Mä só thuê: 41J8031547
+
+Ngày cấp: 06/07/2021
+
+Người đại diện: Nguyễn Trần Duy Khiết
+
+Mã Số thuế cá nhân: 335790753
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $(".bar").click(function (e) {
+        $(".menu").toggleClass("active");
+      });
+
+      $(".btn-filter button").click(function () {
+        $(".filter").addClass("active");
+      });
+      $(".close i").click(function () {
+        $(".filter").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
